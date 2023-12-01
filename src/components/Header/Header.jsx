@@ -1,13 +1,12 @@
 import "./Header.scss"
 
-const Header = () => {
-    const btn = ["ALL", "ELECTRONICS", "JEWELERY", "MEN'S CLOTHING", "WOMEN'S CLOTHING"]
+const Header = ({btn}) => {
   return (
     <header>
         <h1>Products List</h1>
         <div className="buttons">
-            {btn.map((item) => (
-                <button>{item}</button>
+            {btn.map((item, index) => (
+                <button key={index}>{item.toUpperCase()}</button>
             ))}
         </div>
     </header>
