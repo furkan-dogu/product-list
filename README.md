@@ -42,7 +42,7 @@ SOLUTION
 ## Screenshots
 
 <div align="center">
-  <img src="https://github.com/furkan-dogu/product-list/blob/main/public/assets/Screenshot_1.jpg"  width="35%" height="600" />
+  <img src="https://github.com/furkan-dogu/product-list/blob/main/public/assets/Screenshot_1.jpg"  width="35%" height="500" />
   <img src="https://github.com/furkan-dogu/product-list/blob/main/public/assets/Screenshot_2.jpg"  width="55%" height="600" />
   <img src="https://github.com/furkan-dogu/product-list/blob/main/public/assets/Screenshot_3.jpg"  width="90.5%" height="500" />
 </div>
