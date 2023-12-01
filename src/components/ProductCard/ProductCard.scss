@@ -1,0 +1,58 @@
+.card {
+    width: 350px;
+    height: 450px;
+    // background-color: aqua;
+    box-shadow: 0 0 10px black;
+    border-radius: 1rem;
+    overflow: hidden;
+    // padding: .5rem;
+    &:hover .title {
+        opacity: 1;
+        // left: 50%;
+        transition: all 1s ease;
+        transform: translateX(0);
+    }
+}
+
+.image {
+    position: relative;
+    z-index: 1;
+    
+    img{
+        width: 100%;
+        opacity: .7;
+
+        &:hover {
+            opacity: 1;
+            transition: all .4s ease;
+        }
+    }
+}
+
+.price {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    // right: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transform: translateX(500px);
+    z-index: 5;
+    border-radius: 10px;
+    padding: 0 .5rem;
+    width: 100%;
+}
+
+
