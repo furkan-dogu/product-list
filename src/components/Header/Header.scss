@@ -5,26 +5,27 @@ header {
     padding: 2rem;
     @include flex(center);
     flex-direction: column;
-}
-
-header h1 {
-    color: #CD890C;
-    padding: 1rem;
-    font-size: 3rem;
-}
-
-.buttons {
-    @include flex(center);
-    gap: .5rem;
-}
-
-button {
-    padding: 1rem;
-    border-radius: 1rem;
-    cursor: pointer;
-    border: none;
-    &:hover {
-        background-color: #FE4B08;
-        transition: all 1s ease;
+    h1 {
+        color: #CD890C;
+        padding: 1rem;
+        font-size: 3rem;
     }
+    .buttons {
+        @include flex(center);
+        gap: .5rem;
+        button {
+            padding: 1rem;
+            border-radius: 1rem;
+            cursor: pointer;
+            border: none;
+            &:hover {
+                background-color: #FE4B08;
+                transition: all 1s ease;
+            }
+        }
+    }   
 }
+
+
+
+
